@@ -4,7 +4,6 @@
     <groupId>com.example</groupId>
     <artifactId>my-project-python</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
 
    <build>
      <plugins>
