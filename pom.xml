@@ -1,10 +1,9 @@
- <project>
+<project>
    <packaging>sonar-plugin</packaging>
 
    <build>
      <plugins>
        <plugin>
-        <requirePlugins>python:2.0-SNAPSHOT</requirePlugins>
          <groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
          <artifactId>sonar-packaging-maven-plugin</artifactId>
          <extensions>true</extensions>
