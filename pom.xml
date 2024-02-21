@@ -1,0 +1,16 @@
+ <project>
+   <packaging>sonar-plugin</packaging>
+
+   <build>
+     <plugins>
+       <plugin>
+         <groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
+         <artifactId>sonar-packaging-maven-plugin</artifactId>
+         <extensions>true</extensions>
+         <configuration>
+           <pluginClass>com.mycompany.sonarqube.MyPlugin</pluginClass>
+         </configuration>
+       </plugin>
+     </plugins>
+   </build>
+ </project>
